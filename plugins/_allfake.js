@@ -26,8 +26,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'github.com/krizynofc', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'mhdfakri14@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'github.com/vannsixteen', true],
+         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'revanrzld5@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -64,7 +64,7 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./media/krizyn.jpg') //Gambarnye
 					},
-					"title": tb, //Kasih namalu 
+					"title": VannSixteen, //Kasih namalu 
 					"description": "SELF BOT", 
 					"currencyCode": "USD",
 					"priceAmount1000": "2000",
@@ -86,7 +86,7 @@ global.ftroli = {
                             itemCount : 1,
                             status: 1,
                             surface : 1,
-                            message: 'KrizynOfc', //Kasih namalu
+                            message: 'VannSixteen', //Kasih namalu
                             orderTitle: tb,
                             thumbnail: fs.readFileSync('./media/krizyn.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net'
@@ -101,7 +101,7 @@ global.flokasi = {
                         },
        message: {
                     locationMessage: {
-                    name: 'Aceh Utara',
+                    name: 'Bandung Selatan',
                     jpegThumbnail: fs.readFileSync('./media/krizyn.jpg')
                           }
                         }
@@ -136,7 +136,7 @@ global.fliveLoc2 = {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "contactMessage": { "title":"krizyn","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./media/krizyn.jpg')}}
+	 message: { "contactMessage": { "title":"Vann","h": `haloo`, 'jpegThumbnail': fs.readFileSync('./media/krizyn.jpg')}}
 	}
 	
  global.fcona = {
